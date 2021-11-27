@@ -1,0 +1,36 @@
+/*En este CSS están aplicadas todas las propiedades requeridas para la actividad - Actividad CSS Miguel Talavera*/
+pre {
+    background-color: grey;
+    color: orange;
+    font-family: verdana;
+}
+p{
+    text-align: center;
+    line-height: 80%;
+    quotes: "«" "»" "‹" "›";
+}
+#direccion{
+    font-size:large;
+    quotes: "«" "»" "‹" "›";
+}
+div{
+    word-spacing: 15px;
+    font-size: large;
+    font-style: italic;
+}
+div.a{
+    width: 100px;
+    border: 2px solid blue;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    text-decoration: underline overline;
+    writing-mode: vertical-lr;
+    word-wrap: break-word;
+}
+#imagencita{
+    vertical-align: super;
+}
+#imagencita2{
+    vertical-align:bottom;
+}
